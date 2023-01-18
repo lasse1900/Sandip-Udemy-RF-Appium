@@ -1,0 +1,8 @@
+*.html
+*.xml
+*.png
+*.pyc
+pabot_results
+node_modules
+Results 
+.pabotsuitenames
