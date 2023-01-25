@@ -28,8 +28,6 @@ class AppiumManager:
         print("Stopping Appium Server For Suite - " + str(suite_name))
         appium_server_proc = AppiumManager.Server_Info_Map[suite_name]
         appium_server_proc.terminate()
-        appium_server_proc.terminate()
-        sleep(5)
 
 AppiumManager.start_appium_server("MySuiteOne")
 AppiumManager.start_appium_server("MySuiteTwo")
