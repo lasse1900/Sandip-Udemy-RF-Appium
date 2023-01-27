@@ -12,5 +12,6 @@
 -	npx kill-port <port#> example 4723   = Appium default port
 
 ## Lesson 9 
+-   Start appium server before running / starting tests (27.01.2023)
 -   pabot --pabotlib --resourcefile ./Library/Resource/shared_resource --processes 1 --outputdir result Test/
 
