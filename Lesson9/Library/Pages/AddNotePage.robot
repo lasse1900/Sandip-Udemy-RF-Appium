@@ -5,7 +5,8 @@ Library    AppiumLibrary
 ${TITLE_TEXT_BOX}   com.google.android.keep:id/editable_title
 ${NOTE_ITEM_BOX}    //android.widget.EditText[@resource-id='com.google.android.keep:id/description']
 ${ADD_NEXT_ITEM}    com.google.android.keep:id/add_item_text_view
-${SAVE_AND_GOHOME}  //android.widget.ImageButton[@content-desc='Open navigation drawer']
+# ${SAVE_AND_GOHOME}  //android.widget.ImageButton[@content-desc='Open navigation drawer']
+${SAVE_AND_GOHOME}  //android.widget.ImageButton[@content-desc="Navigate up"]
 
 *** Keywords ***
 AddNotePage.Enter_Title

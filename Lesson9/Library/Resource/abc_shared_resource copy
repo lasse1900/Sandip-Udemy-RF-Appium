@@ -1,0 +1,34 @@
+# ---------------------- #
+# ALL DEVICE INFORMATION #
+# ---------------------- #
+
+[device_1]
+tags = android
+appium_port = 4723
+id = R58N40PQA1D
+os = 5.1.1
+manufacturer = bq
+
+[device_2]
+tags = android
+appium_port = 4728
+id = HNB31XHZ
+os = 8.0.0
+manufacturer = lenovo
+
+[device_3]
+tags = ios
+appium_port = 4733
+id = XA009A2236CC110
+os = 12.0
+manufacturer = apple
+
+
+
+
+
+
+
+
+
+

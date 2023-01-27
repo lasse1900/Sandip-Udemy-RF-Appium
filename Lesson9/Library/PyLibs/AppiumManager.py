@@ -9,7 +9,7 @@ class AppiumManager:
     def start_appium_server(port):
         appium_arg_string = "-p " + port + " -bp " + str(int(port) + 1)
         print("Starting Appium Server with args : " + appium_arg_string)
-        AppiumManager.appium_process = subprocess.Popen(["appium", appium_arg_string], stdout=subprocess.DEVNULL)
+        AppiumManager.appium_process = subprocess.Popen(["appium", appium_arg_string], stdout=subprocess.DEVNULL, shell=True)
         sleep(5)
 
     @staticmethod
